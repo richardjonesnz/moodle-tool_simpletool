@@ -1,0 +1,95 @@
+What data: Array
+(
+    [guest] => stdClass Object
+        (
+            [username] => guest
+            [firstname] => Guest user
+            [lastname] =>  
+        )
+
+    [admin37] => stdClass Object
+        (
+            [username] => admin37
+            [firstname] => Admin
+            [lastname] => User
+        )
+
+    [almpat] => stdClass Object
+        (
+            [username] => almpat
+            [firstname] => Alma
+            [lastname] => Patel
+        )
+
+    [jinliu] => stdClass Object
+        (
+            [username] => jinliu
+            [firstname] => Jinshun
+            [lastname] => Liu
+        )
+
+    [fresmi] => stdClass Object
+        (
+            [username] => fresmi
+            [firstname] => Fred
+            [lastname] => Smith
+        )
+
+    [rickal] => stdClass Object
+        (
+            [username] => rickal
+            [firstname] => Richard
+            [lastname] => Kale
+        )
+
+    [jenchu] => stdClass Object
+        (
+            [username] => jenchu
+            [firstname] => Jenny
+            [lastname] => Chu
+        )
+
+    [aroroy] => stdClass Object
+        (
+            [username] => aroroy
+            [firstname] => Aroha
+            [lastname] => Royal
+        )
+
+    [natngu] => stdClass Object
+        (
+            [username] => natngu
+            [firstname] => Nathan
+            [lastname] => Nguyen
+        )
+
+    [katshe] => stdClass Object
+        (
+            [username] => katshe
+            [firstname] => Katya
+            [lastname] => Shevchenko
+        )
+
+    [janjon] => stdClass Object
+        (
+            [username] => janjon
+            [firstname] => Jane
+            [lastname] => Jones
+        )
+
+    [mitgag] => stdClass Object
+        (
+            [username] => mitgag
+            [firstname] => Mitchell
+            [lastname] => Gage
+        )
+
+    [karapiro] => stdClass Object
+        (
+            [username] => karapiro
+            [firstname] => Admin
+            [lastname] => User
+        )
+
+)
+

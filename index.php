@@ -22,6 +22,8 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @see https://moodledev.moodle.school/mod/page/view.php?id=50
  */
+use \tool_simpletool\local\debugging;
+use \tool_simpletool\local\fetch_data;
 
 require_once(__DIR__ . '/../../../config.php');
 
@@ -38,6 +40,7 @@ $PAGE->set_heading(get_string('index_header', 'tool_simpletool'));
 // Start output to browser.
 echo $OUTPUT->header();
 echo $OUTPUT->heading($title, 2);
-echo get_string('greeting', 'tool_simpletool');
-
+$data = fetch_data::user_data();
+debugging::logit('What data: ', $data);
+echo ($data) ? 'Got data!' : 'No data';
 echo $OUTPUT->footer();

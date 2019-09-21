@@ -13,20 +13,23 @@
 //
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
-
-
 /**
- * English strings for tool Richardnz
+ * Simple debugging class
  *
- * @package    mod_multipage
- * @copyright  2018 Richard Jones <richardnz@outlook.com>
+ * @package    tool_simpletool
+ * @copyright  2019 Richard Jones richardnz@outlook.com
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
- *
  */
-
+namespace tool_simpletool\local;
 defined('MOODLE_INTERNAL') || die();
-
-// General module strings
-$string['pluginname'] = 'A simple tool';
-$string['greeting'] = 'Hello World!';
-$string['index_header'] = 'Main page';
+class debugging {
+    public static function logit($message, $value) {
+        $file = fopen('mylog.log', 'a');
+        if ($file) {
+            fwrite($file, print_r($message, true));
+            fwrite($file, print_r($value, true));
+            fwrite($file, "\n");
+            fclose($file);
+        }
+    }
+}
