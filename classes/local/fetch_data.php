@@ -37,6 +37,14 @@ defined('MOODLE_INTERNAL') || die();
  */
 class fetch_data {
 
+     public static function user_data() {
+        global $DB;
+
+        $data = $DB->get_records('user', ['deleted' => 0], '', 'username, firstname, lastname');
+
+        return $data;
+    }
+
     public static function resource_data() {
         global $DB;
 
@@ -52,6 +60,7 @@ class fetch_data {
 
     public static function block_data() {
         global $DB;
+
         $sql = "SELECT b.id, cat.id AS catid, cat.name AS catname,
                 b.blockname, c.shortname
                 FROM {context} x
@@ -62,14 +71,6 @@ class fetch_data {
                 ORDER BY b.blockname DESC";
 
         $data = $DB->get_records_sql($sql, ['clevel' => 80]);
-        return $data;
-    }
-
-    public static function user_data() {
-        global $DB;
-
-        $data = $DB->get_records('user', ['deleted' => 0], '','username, firstname, lastname');
-
         return $data;
     }
 }
