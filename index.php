@@ -37,10 +37,9 @@ $PAGE->set_pagelayout('report');
 $PAGE->set_title($title);
 $PAGE->set_heading(get_string('index_header', 'tool_simpletool'));
 
-// Start output to browser.
-echo $OUTPUT->header();
-echo $OUTPUT->heading($title, 2);
+// Get some data
 $data = fetch_data::user_data();
-debugging::logit('What data: ', $data);
-echo ($data) ? 'Got data!' : 'No data';
-echo $OUTPUT->footer();
+
+// Call the renderer to display the data.
+$renderer = $PAGE->get_renderer('tool_simpletool');
+$renderer->display_table($data);
