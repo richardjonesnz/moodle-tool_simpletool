@@ -1,94 +1,397 @@
-What data: Array
+Records: Array
 (
-    [guest] => stdClass Object
+    [1] => stdClass Object
         (
-            [username] => guest
-            [firstname] => Guest user
-            [lastname] =>  
+            [id] => 1
+            [collaborateid] => 1
+            [page] => a
+            [userid] => 2
+            [submission] => <p>Partner A's submission<br></p>
+            [name] => Test collaborate 1
+            [title] => Test Collaborate #1
         )
 
-    [admin37] => stdClass Object
+    [2] => stdClass Object
         (
-            [username] => admin37
+            [id] => 2
+            [collaborateid] => 1
+            [page] => b
+            [userid] => 2
+            [submission] => <p>Partner B says all this and more.<br></p>
+            [name] => Test collaborate 1
+            [title] => Test Collaborate #1
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 3
+            [collaborateid] => 2
+            [page] => a
+            [userid] => 2
+            [submission] => <p>I think that the second thing is<br></p>
+            [name] => Test collaborate 2
+            [title] => Test Collaborate #1
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 4
+            [collaborateid] => 2
+            [page] => b
+            [userid] => 2
+            [submission] => <p>For me what's important here is<br></p>
+            [name] => Test collaborate 2
+            [title] => Test Collaborate #1
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => 5
+            [collaborateid] => 1
+            [page] => a
+            [userid] => 11
+            [submission] => <p>Jane thinks this<br></p>
+            [name] => Test collaborate 1
+            [title] => Test Collaborate #1
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 6
+            [collaborateid] => 1
+            [page] => b
+            [userid] => 3
+            [submission] => <p>Alma is thinking about a b and c<br></p>
+            [name] => Test collaborate 1
+            [title] => Test Collaborate #1
+        )
+
+)
+
+Records: Array
+(
+    [1] => stdClass Object
+        (
+            [id] => 1
+            [collaborateid] => 1
+            [page] => a
+            [userid] => 2
+            [submission] => <p>Partner A's submission<br></p>
+            [name] => Test collaborate 1
+            [title] => Test Collaborate #1
             [firstname] => Admin
             [lastname] => User
         )
 
-    [almpat] => stdClass Object
+    [2] => stdClass Object
         (
-            [username] => almpat
-            [firstname] => Alma
-            [lastname] => Patel
+            [id] => 2
+            [collaborateid] => 1
+            [page] => b
+            [userid] => 2
+            [submission] => <p>Partner B says all this and more.<br></p>
+            [name] => Test collaborate 1
+            [title] => Test Collaborate #1
+            [firstname] => Admin
+            [lastname] => User
         )
 
-    [jinliu] => stdClass Object
+    [3] => stdClass Object
         (
-            [username] => jinliu
-            [firstname] => Jinshun
-            [lastname] => Liu
+            [id] => 3
+            [collaborateid] => 2
+            [page] => a
+            [userid] => 2
+            [submission] => <p>I think that the second thing is<br></p>
+            [name] => Test collaborate 2
+            [title] => Test Collaborate #1
+            [firstname] => Admin
+            [lastname] => User
         )
 
-    [fresmi] => stdClass Object
+    [4] => stdClass Object
         (
-            [username] => fresmi
-            [firstname] => Fred
-            [lastname] => Smith
+            [id] => 4
+            [collaborateid] => 2
+            [page] => b
+            [userid] => 2
+            [submission] => <p>For me what's important here is<br></p>
+            [name] => Test collaborate 2
+            [title] => Test Collaborate #1
+            [firstname] => Admin
+            [lastname] => User
         )
 
-    [rickal] => stdClass Object
+    [5] => stdClass Object
         (
-            [username] => rickal
-            [firstname] => Richard
-            [lastname] => Kale
-        )
-
-    [jenchu] => stdClass Object
-        (
-            [username] => jenchu
-            [firstname] => Jenny
-            [lastname] => Chu
-        )
-
-    [aroroy] => stdClass Object
-        (
-            [username] => aroroy
-            [firstname] => Aroha
-            [lastname] => Royal
-        )
-
-    [natngu] => stdClass Object
-        (
-            [username] => natngu
-            [firstname] => Nathan
-            [lastname] => Nguyen
-        )
-
-    [katshe] => stdClass Object
-        (
-            [username] => katshe
-            [firstname] => Katya
-            [lastname] => Shevchenko
-        )
-
-    [janjon] => stdClass Object
-        (
-            [username] => janjon
+            [id] => 5
+            [collaborateid] => 1
+            [page] => a
+            [userid] => 11
+            [submission] => <p>Jane thinks this<br></p>
+            [name] => Test collaborate 1
+            [title] => Test Collaborate #1
             [firstname] => Jane
             [lastname] => Jones
         )
 
-    [mitgag] => stdClass Object
+    [6] => stdClass Object
         (
-            [username] => mitgag
-            [firstname] => Mitchell
-            [lastname] => Gage
+            [id] => 6
+            [collaborateid] => 1
+            [page] => b
+            [userid] => 3
+            [submission] => <p>Alma is thinking about a b and c<br></p>
+            [name] => Test collaborate 1
+            [title] => Test Collaborate #1
+            [firstname] => Alma
+            [lastname] => Patel
         )
 
-    [karapiro] => stdClass Object
+)
+
+Records: Array
+(
+    [1] => stdClass Object
         (
-            [username] => karapiro
+            [id] => 1
+            [collaborateid] => 1
+            [page] => a
+            [userid] => 2
+            [submission] => <p>Partner A's submission<br></p>
+            [name] => Test collaborate 1
+            [title] => Test Collaborate #1
             [firstname] => Admin
             [lastname] => User
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => 2
+            [collaborateid] => 1
+            [page] => b
+            [userid] => 2
+            [submission] => <p>Partner B says all this and more.<br></p>
+            [name] => Test collaborate 1
+            [title] => Test Collaborate #1
+            [firstname] => Admin
+            [lastname] => User
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 3
+            [collaborateid] => 2
+            [page] => a
+            [userid] => 2
+            [submission] => <p>I think that the second thing is<br></p>
+            [name] => Test collaborate 2
+            [title] => Test Collaborate #1
+            [firstname] => Admin
+            [lastname] => User
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 4
+            [collaborateid] => 2
+            [page] => b
+            [userid] => 2
+            [submission] => <p>For me what's important here is<br></p>
+            [name] => Test collaborate 2
+            [title] => Test Collaborate #1
+            [firstname] => Admin
+            [lastname] => User
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => 5
+            [collaborateid] => 1
+            [page] => a
+            [userid] => 11
+            [submission] => <p>Jane thinks this<br></p>
+            [name] => Test collaborate 1
+            [title] => Test Collaborate #1
+            [firstname] => Jane
+            [lastname] => Jones
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 6
+            [collaborateid] => 1
+            [page] => b
+            [userid] => 3
+            [submission] => <p>Alma is thinking about a b and c<br></p>
+            [name] => Test collaborate 1
+            [title] => Test Collaborate #1
+            [firstname] => Alma
+            [lastname] => Patel
+        )
+
+)
+
+Records: Array
+(
+    [1] => stdClass Object
+        (
+            [id] => 1
+            [collaborateid] => 1
+            [page] => a
+            [userid] => 2
+            [submission] => <p>Partner A's submission<br></p>
+            [name] => Test collaborate 1
+            [title] => Test Collaborate #1
+            [firstname] => Admin
+            [lastname] => User
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => 2
+            [collaborateid] => 1
+            [page] => b
+            [userid] => 2
+            [submission] => <p>Partner B says all this and more.<br></p>
+            [name] => Test collaborate 1
+            [title] => Test Collaborate #1
+            [firstname] => Admin
+            [lastname] => User
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 3
+            [collaborateid] => 2
+            [page] => a
+            [userid] => 2
+            [submission] => <p>I think that the second thing is<br></p>
+            [name] => Test collaborate 2
+            [title] => Test Collaborate #1
+            [firstname] => Admin
+            [lastname] => User
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 4
+            [collaborateid] => 2
+            [page] => b
+            [userid] => 2
+            [submission] => <p>For me what's important here is<br></p>
+            [name] => Test collaborate 2
+            [title] => Test Collaborate #1
+            [firstname] => Admin
+            [lastname] => User
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => 5
+            [collaborateid] => 1
+            [page] => a
+            [userid] => 11
+            [submission] => <p>Jane thinks this<br></p>
+            [name] => Test collaborate 1
+            [title] => Test Collaborate #1
+            [firstname] => Jane
+            [lastname] => Jones
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 6
+            [collaborateid] => 1
+            [page] => b
+            [userid] => 3
+            [submission] => <p>Alma is thinking about a b and c<br></p>
+            [name] => Test collaborate 1
+            [title] => Test Collaborate #1
+            [firstname] => Alma
+            [lastname] => Patel
+        )
+
+)
+
+Records: Array
+(
+    [1] => stdClass Object
+        (
+            [id] => 1
+            [collaborateid] => 1
+            [page] => a
+            [userid] => 2
+            [submission] => <p>Partner A's submission<br></p>
+            [name] => A First Collaborate
+            [title] => Test Collaborate #1 title
+            [firstname] => Admin
+            [lastname] => User
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => 2
+            [collaborateid] => 1
+            [page] => b
+            [userid] => 2
+            [submission] => <p>Partner B says all this and more.<br></p>
+            [name] => A First Collaborate
+            [title] => Test Collaborate #1 title
+            [firstname] => Admin
+            [lastname] => User
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 3
+            [collaborateid] => 2
+            [page] => a
+            [userid] => 2
+            [submission] => <p>I think that the second thing is<br></p>
+            [name] => A second collaborate
+            [title] => Test Collaborate #1
+            [firstname] => Admin
+            [lastname] => User
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 4
+            [collaborateid] => 2
+            [page] => b
+            [userid] => 2
+            [submission] => <p>For me what's important here is<br></p>
+            [name] => A second collaborate
+            [title] => Test Collaborate #1
+            [firstname] => Admin
+            [lastname] => User
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => 5
+            [collaborateid] => 1
+            [page] => a
+            [userid] => 11
+            [submission] => <p>Jane thinks this<br></p>
+            [name] => A First Collaborate
+            [title] => Test Collaborate #1 title
+            [firstname] => Jane
+            [lastname] => Jones
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 6
+            [collaborateid] => 1
+            [page] => b
+            [userid] => 3
+            [submission] => <p>Alma is thinking about a b and c<br></p>
+            [name] => A First Collaborate
+            [title] => Test Collaborate #1 title
+            [firstname] => Alma
+            [lastname] => Patel
         )
 
 )

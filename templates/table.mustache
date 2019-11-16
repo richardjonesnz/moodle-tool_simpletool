@@ -46,9 +46,11 @@
           <tbody>
             {{#rows}}
               <tr class="danger">
-                <td>{{username}}</td>
+                <td>{{name}}</td>
+                <td>{{title}}</td>
                 <td>{{firstname}}</td>
                 <td>{{lastname}}</td>
+                <td>{{#shortentext}} 40, {{{submission}}} {{/shortentext}}</td>
               </tr>
             {{/rows}}
           </tbody>

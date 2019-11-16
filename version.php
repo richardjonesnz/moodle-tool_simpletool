@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'tool_simpletool';
-$plugin->version = 2019212001;
+$plugin->version = 2019212003;
 $plugin->release = 'v1.0';
 $plugin->requires = 2017111301;
 $plugin->maturity = MATURITY_ALPHA;
