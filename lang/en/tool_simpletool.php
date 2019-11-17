@@ -31,6 +31,7 @@ $string['pluginname'] = 'A simple tool';
 $string['greeting'] = 'Hello World!';
 $string['index_header'] = 'Main page';
 $string['table_header'] = 'Collaborate submissions';
+$string['about'] = 'About';
 
 // Table headers.
 $string['title'] = 'Title';
